@@ -1,0 +1,14 @@
+
+Como é feito no knative
+https://redhat-developer-demos.github.io/knative-tutorial/knative-tutorial/eventing/index.html
+
+
+Subscription
+https://knative.dev/docs/eventing/channels/subscriptions/
+
+Source
+https://knative.dev/docs/eventing/sources/
+ - Kafka: https://knative.dev/docs/eventing/sources/kafka-source
+ - RabbitMQ: https://knative.dev/docs/eventing/sources/rabbitmq-source/#create-a-rabbitmqsource-object
+ - custom: https://knative.dev/docs/eventing/custom-event-source/containersource/
+   - Cloud Events Especification: https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/spec.md#example
